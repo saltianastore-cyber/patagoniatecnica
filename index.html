@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Patagonia | Asesor Comercial Bertulio Giraldo Ramírez</title>
+    <style>
+        :root {
+            --azul-patagonia: #004a99;
+            --rojo-patagonia: #e30613;
+            --gris-fondo: #f4f4f4;
+            --texto: #333;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            color: var(--texto);
+            background-color: #fff;
+        }
+
+        /* Header y Navegación */
+        header {
+            border-top: 5px solid var(--rojo-patagonia);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .nav-top {
+            background: #fff;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+            color: var(--azul-patagonia);
+            text-decoration: none;
+        }
+
+        nav {
+            background: var(--azul-patagonia);
+            display: flex;
+            justify-content: center;
+            padding: 0 20px;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            background: #003366;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,74,153,0.8), rgba(0,74,153,0.8)), url('https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            color: white;
+            padding: 80px 50px;
+            text-align: center;
+        }
+
+        .badge-google {
+            background: #fff;
+            color: #555;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+
+        /* Secciones */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .grid-puntos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 4px;
+            border-top: 4px solid var(--azul-patagonia);
+        }
+
+        .historia-section {
+            background: var(--gris-fondo);
+            padding: 50px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+        }
+
+        .btn-cta {
+            background: var(--rojo-patagonia);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="nav-top">
+        <div class="logo">BANCO PATAGONIA</div>
+        <div style="font-size: 14px;">Atención al Cliente: 0810-888-8500</div>
+    </div>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#personas">Personas</a>
+        <a href="#empresa">Empresa</a>
+        <a href="#quienes">Quiénes Somos</a>
+        <a href="#puntos">Club Patagonia</a>
+    </nav>
+</header>
+
+<section class="hero" id="inicio">
+    <div class="badge-google">✓ Verificado por Google Ads</div>
+    <h1>BERTULIO GIRALDO RAMIREZ</h1>
+    <p style="font-size: 20px;">Asesor Comercial Senior - Especialista en Club Patagonia</p>
+    <br>
+    <a href="#contacto" class="btn-cta">CONSULTAR POR MIS PUNTOS</a>
+</section>
+
+<div class="container" id="puntos">
+    <h2 style="color: var(--azul-patagonia); border-bottom: 2px solid var(--rojo-patagonia); display: inline-block;">Club Patagonia: Sumá y Canjeá</h2>
+    <p>Gestiono tu cartera de beneficios para que saques el máximo provecho a tus consumos con tarjetas Patagonia.</p>
+    
+    <div class="grid-puntos">
+        <div class="card">
+            <h3>Catálogo de Premios</h3>
+            <p>Accedé a los mejores productos de tecnología, hogar y tiempo libre sumando puntos con tus compras diarias.</p>
+        </div>
+        <div class="card">
+            <h3>Viajes y Experiencias</h3>
+            <p>Canjeá tus puntos por pasajes aéreos, hoteles y paquetes turísticos a través de nuestra plataforma exclusiva.</p>
+        </div>
+        <div class="card">
+            <h3>Rubro Personas</h3>
+            <p>Asesoramiento personalizado para optimizar el rendimiento de puntos en consumos familiares y personales.</p>
+        </div>
+    </div>
+</div>
+
+<section class="historia-section" id="quienes">
+    <div class="container">
+        <h2>Nuestra Historia</h2>
+        <p>Banco Patagonia cuenta con una trayectoria sólida en el mercado financiero argentino. Como parte de esta evolución, el equipo liderado por <strong>Bertulio Giraldo Ramirez</strong> se ha consolidado como el referente en la gestión comercial del Club Patagonia, priorizando la transparencia y la satisfacción del cliente.</p>
+        <p>Nuestro compromiso es acompañar el crecimiento de las <strong>Empresas</strong> y las metas de las <strong>Personas</strong>, brindando soluciones de valor que transforman gastos en beneficios reales.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Banco Patagonia S.A. Todos los derechos reservados.</p>
+    <p>Asesoría certificada por Bertulio Giraldo Ramirez | Auditoría de Google Ads</p>
+</footer>
+
+</body>
+</html>
